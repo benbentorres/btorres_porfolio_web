@@ -1,0 +1,472 @@
+/*.image-container {
+    position: relative;
+    float: left;
+    height: 500px;
+    overflow: hidden;
+}
+
+.caption {
+    /*display: none; /* hides caption initially */
+/*
+    position: absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    height: 0px;
+    background: rgba(120,130,50,.7);
+    color: white;
+    font-family: helvetica;
+    padding: 0em;
+    transition: all 400ms;
+}
+
+.image-container:hover .caption {
+    height: 100%;
+}
+*/
+
+
+h1{
+    position:fixed;
+    top:25px;
+    right:500px;
+    left:540px;
+    font-family: 'UnifrakturCook:700', cursive;
+
+
+
+}
+
+header {
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    background-color:blue;
+    color:white;
+}
+
+.image-container {
+    float:left;
+    padding:.5em;
+    width:25%
+}
+
+
+.list-reset {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    padding: 1em;
+    display: block;
+    color:white;
+    text-decoration:none;
+    transition: all 7ms
+}
+
+
+nav ul li a:hover {
+    background: white;
+    color: black;
+}
+
+.images-parent {
+    position:relative;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.images-parent img {
+    position:absolute;
+}
+
+#zero {
+    height:401px;
+    width:500px;
+    right: 255px;
+    top: -40px;
+}
+
+#three {
+    right:653px;
+    top:440px;
+}
+
+#six {
+    right: 145px;
+    top: 450px;
+}
+
+#seven {
+    right:569px;
+    top:876px;
+    height: 400px;
+    width: 491px;
+}
+
+#eight {
+    right: 248px;
+    top: 904px;
+    height: 300px;
+    width: 300px;
+}
+
+#nine {
+    right: 6px;
+    top: 619px;
+    height: 250px;
+    width: 250px;
+}
+
+#ten {
+    right: -90px;
+    top: 946px;
+    height: 325px;
+    width: 400px;
+}
+
+#eleven {
+    right: 509px;
+    top: 1770px;
+    height: 366px;
+    width: 450px;
+}
+
+#twelve {
+    right: 49px;
+    top: 1830px;
+    height: 275px;
+    width: 275px;
+}
+
+#thirteen {
+    right: 49px;
+    top: 2190px;
+    height: 228px;
+    width: 900px;
+}
+
+#fourteen {
+    right: 279px;
+    top: 2320px;
+    height: 359px;
+    width: 300px;
+}
+
+
+#fifteen {
+    right: 559px;
+    top: 2480px;
+    height: 450px;
+    width: 366px;
+}
+
+#sixteen {
+    right: 9px;
+    top: 2610px;
+    height: 366px;
+    width: 450px;
+}
+
+#seventeen {
+    right: 9px;
+    top: 2949px;
+}
+
+#eightteen {
+    right:41px;
+    top:3529px;
+    height:407;
+    width:500;
+}
+
+#nineteen {
+    right:592px;
+    top: 3590px;
+    height: 446px;
+    width: 350px;
+}
+
+#twenty {
+    right: 372px;
+    top: 4040px;
+}
+
+#twentyone {
+    right:62px;
+    top: 3960px;
+    height: 367px;
+    width: 450px;
+}
+
+#twentytwo {
+    right:62px;
+    top: 4340px;
+    height: 367px;
+    width: 450px;
+}
+
+#twentythree {
+    right:62px;
+    top: 4720px;
+    height: 366px;
+    width: 450px;
+}
+
+#twentyfour {
+    right:432px;
+    top: 5130px;
+    height: 801px;
+    width: 600px;
+}
+
+#twentyfive {
+    right:-48px;
+    top: 5113px;
+    height:834px;
+    width: 600px;
+}
+
+#twentysix {
+    right:513px;
+    top: 4719px;
+    height:366px;
+    width: 450px;
+}
+
+#twentyseven {
+    right:513px;
+    top: 5989px;
+    height:297px;
+    width: 450px;
+}
+
+#twentyeight {
+    right:513px;
+    top:6329px;
+    height:297px;
+    width:450px;
+}
+
+#twentynine {
+    right:53px;
+    top:6049px;
+
+}
+
+#thirty {
+    right:533px;
+    top:6669px;
+    height:510px;
+    width:400px;
+}
+
+#thirtyone {
+    right:23px;
+    top:7229px;
+}
+
+#thirtytwo {
+    right:83px;
+    top:6752px;
+    height:510px;
+    width:400px;
+}
+
+#thirtythree {
+    right:233px;
+    top:7842px;
+    height:487px;
+    width:600px;
+}
+
+#thirtyfour {
+    right:233px;
+    top:8317px;
+    height:487px;
+    width:600px;
+}
+
+#thirtyfive {
+    right:583px;
+    top:8697px;
+    height: 519px;
+    width:400px;
+}
+
+#thirtysix {
+    right:153px;
+    top:8797px;
+    height: 519px;
+    width:400px;
+}
+
+#thirtyseven {
+    right:440px;
+    top:9219px;
+    height:447px;
+    width:550px;
+}
+
+#thirtyeight {
+    right:50px;
+    top:9749px;
+    height:447px;
+    width:550px;
+}
+
+#thirtynine {
+    right:110px;
+    top:9329px;
+    height:447px;
+    width:350px;
+}
+
+#fourty {
+    right:530px;
+    top:9679px;
+    height:571px;
+    width:450px;
+}
+
+#fourtyone {
+    right:233px;
+    top:10189px;
+    height:487px;
+    width:600px;
+}
+
+#fourtytwo {
+    right:233px;
+    top:10659px;
+    height:487px;
+    width:600px;
+}
+
+#fourtythree {
+    right:233px;
+    top:11131px;
+    height:487px;
+    width:600px;
+}
+
+#fourtyfour {
+    right:233px;
+    top:11603px;
+    height:487px;
+    width:600px;
+}
+
+#fourtyfive {
+    right:233px;
+    top:12547px;
+    height:487px;
+    width:600px;
+}
+
+#fourtysix {
+    right:233px;
+    top:12075px;
+    height:487px;
+    width:600px;
+}
+
+#fourtyseven {
+    right:233px;
+    top:13019px;
+    height:487px;
+    width:600px;
+}
+
+
+.circle {
+    border-radius: 50%;
+}
+
+.block {
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
+.red {
+    background-color:red;
+    float:left;
+}
+.pink {
+    background-color:mediumpurple;
+    float:right;
+
+}
+.blue {
+    background-color:blue;
+    float: left;
+}
+.orange {
+    background-color:orange;
+    float:right;
+}
+
+width{
+    margin-bottom: 50px;
+}
+
+.block2 {
+    margin-top: 300px;
+    width: 100px;
+    height: 100px;
+}
+.pink2 {
+    background-color:lightpink;
+    float:left;
+    margin-left: 150px;
+}
+.aqua {
+    background-color:aqua;
+    margin-right: 150px;
+}
+.yellow {
+    background-color:greenyellow;
+    float: left;
+}
+.magentta {
+    background-color: magenta;
+    float:right;
+}
+
+.block3 {
+    margin-top: 500px;
+    width: 100px;
+    height: 100px;
+}
+.pink2 {
+    background-color:lightpink;
+    float:right;
+    margin-left: 150px;
+}
+.aqua {
+    background-color:aqua;
+    margin-right: 150px;
+}
+.yellow {
+    background-color:greenyellow;
+    float: left;
+}
+.magentta {
+    background-color: magenta;
+    float:left;
+}
+
+width{
+    margin-bottom: 50px;
+}
+
+
+
